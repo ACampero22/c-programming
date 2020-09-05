@@ -1,0 +1,27 @@
+Grading at Sat Sep  5 15:29:47 UTC 2020
+Trying to compile your code and link with squares_test.o
+squares.c: In function ‘isInRange’:
+squares.c:11:46: error: expected ‘)’ before ‘{’ token
+   if (coord >= offset && coord< (offset+size){
+                                              ^
+squares.c:16:1: error: expected expression before ‘}’ token
+ }
+ ^
+squares.c: In function ‘squares’:
+squares.c:67:14: error: suggest parentheses around ‘&&’ within ‘||’ [-Werror=parentheses]
+  if((x<size1 && isAtBorder(y, 0, size1-1) || (y<size1 && isAtBorder(x, 0, size1-1))){
+              ^
+squares.c:67:85: error: expected ‘)’ before ‘{’ token
+  if((x<size1 && isAtBorder(y, 0, size1-1) || (y<size1 && isAtBorder(x, 0, size1-1))){
+                                                                                     ^
+squares.c:77:4: error: expected expression before ‘}’ token
+    }
+    ^
+squares.c: In function ‘isInRange’:
+squares.c:16:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+Could not compile your code
+
+Overall Grade: FAILED
