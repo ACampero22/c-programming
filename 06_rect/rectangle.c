@@ -59,7 +59,7 @@ rectangle intersection(rectangle r1, rectangle r2) {
     x_left,
     y_bottom,
     x_right - x_left,
-        y_top - y_bottom
+    y_top - y_bottom
   };
   return ret;
 }
