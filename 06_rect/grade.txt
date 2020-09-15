@@ -1,9 +1,13 @@
-Grading at Tue Sep 15 20:29:23 UTC 2020
+Grading at Tue Sep 15 20:40:54 UTC 2020
 Attempting to compile rectangle.c
-rectangle.c: In function ‘canonicalize’:
-rectangle.c:33:8: error: ‘rectangle {aka struct <anonymous>}’ has no member named ‘heigth’
-   if (r.heigth < 0){
-        ^
-The code did not compile!
+Tring to run rectangle
+Your file matched the expected output
+removing your main() and replacing it with out own to run more tests...
+#################################################
+testcase1:
+testcase1 passed
+#################################################
+testcase2:
+testcase2 passed
 
-Overall Grade: F
+Overall Grade: A
